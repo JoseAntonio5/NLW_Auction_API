@@ -1,0 +1,6 @@
+@NLW_Auction.API_HostAddress = http://localhost:5095
+
+GET {{NLW_Auction.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

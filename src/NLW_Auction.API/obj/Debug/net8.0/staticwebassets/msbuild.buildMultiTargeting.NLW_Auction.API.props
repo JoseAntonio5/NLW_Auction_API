@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\NLW_Auction.API.props" />
+</Project>

@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D4766830-8A14-43B6-B8DC-3CB0138B4A06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{DE598729-D0C7-49A1-8F4B-50F6044E118D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLW_Auction.API", "src\NLW_Auction.API\NLW_Auction.API.csproj", "{75E655D8-9827-4CFB-818C-D6D8D1F60D6E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75E655D8-9827-4CFB-818C-D6D8D1F60D6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75E655D8-9827-4CFB-818C-D6D8D1F60D6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75E655D8-9827-4CFB-818C-D6D8D1F60D6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75E655D8-9827-4CFB-818C-D6D8D1F60D6E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9D74574F-045D-40C5-8BC5-2FE21DF6BC8C}
+	EndGlobalSection
+EndGlobal
