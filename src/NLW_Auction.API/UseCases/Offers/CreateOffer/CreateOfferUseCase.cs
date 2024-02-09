@@ -1,4 +1,5 @@
 ﻿using NLW_Auction.API.Communication.Requests;
+using NLW_Auction.API.Contracts;
 using NLW_Auction.API.Entities;
 using NLW_Auction.API.Repositories;
 using NLW_Auction.API.Services;
@@ -8,13 +9,16 @@ namespace NLW_Auction.API.UseCases.Offers.CreateOffer;
 public class CreateOfferUseCase
 {
     private readonly LoggedUser _loggedUser;
+    private readonly IOfferRepository _repository;
 
-    public CreateOfferUseCase(LoggedUser loggedUser) => _loggedUser = loggedUser;
+    public CreateOfferUseCase(LoggedUser loggedUser, IOfferRepository repository)
+    {
+        _loggedUser = loggedUser;
+        _repository = repository;
+    }
 
     public int Execute(int itemId, RequestCreateOfferJson request)
     {
-        var repository = new NLW_AuctionDbContext();
-
         var loggedUser = _loggedUser.User();
 
         var offer = new Offer
@@ -25,9 +29,7 @@ public class CreateOfferUseCase
             UserId = loggedUser.Id,
         };
 
-        repository.Offers.Add(offer);
-
-        repository.SaveChanges();
+        _repository.CreateOffer(offer);
 
         return offer.Id;
     }

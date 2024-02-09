@@ -1,23 +1,25 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
-using NLW_Auction.API.Repositories;
+using NLW_Auction.API.Contracts;
 
 namespace NLW_Auction.API.Filters;
 
 public class AuthenticationUserAttribute : AuthorizeAttribute, IAuthorizationFilter
 {
+    private IUserRepository _repository;
+
+    public AuthenticationUserAttribute(IUserRepository repository) => _repository = repository;
+
     public void OnAuthorization(AuthorizationFilterContext context)
     {
         try
         {
             var token = TokenOnRequest(context.HttpContext);
 
-            var repository = new NLW_AuctionDbContext();
-
             var email = FromBase64toString(token);
 
-            var userExist = repository.Users.Any(user => user.Email.Equals(email));
+            var userExist = _repository.ExistUserWithEmail(email);
 
             if (userExist == false)
             {

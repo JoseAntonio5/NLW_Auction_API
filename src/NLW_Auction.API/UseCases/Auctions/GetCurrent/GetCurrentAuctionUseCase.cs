@@ -1,21 +1,16 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using NLW_Auction.API.Contracts;
 using NLW_Auction.API.Entities;
-using NLW_Auction.API.Repositories;
 
 namespace NLW_Auction.API.UseCases.Auctions.GetCurrent;
 
 public class GetCurrentAuctionUseCase
 {
+    private readonly IAuctionRepository _repository;
+
+    public GetCurrentAuctionUseCase(IAuctionRepository repository) => _repository = repository;
+
     public Auction? Execute()
     {
-
-        var repository = new NLW_AuctionDbContext();
-
-        var today = DateTime.Now;
-
-        return repository
-                .Auctions
-                .Include(auction => auction.Items)
-                .FirstOrDefault(auction => today >= auction.Starts && today <= auction.Ends);
+        return _repository.GetAuction();
     }
 }
