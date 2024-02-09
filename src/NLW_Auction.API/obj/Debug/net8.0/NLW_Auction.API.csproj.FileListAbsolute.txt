@@ -59,3 +59,4 @@ C:\Users\jlope\workspace\NLW_Auction\src\NLW_Auction.API\bin\Debug\net8.0\runtim
 C:\Users\jlope\workspace\NLW_Auction\src\NLW_Auction.API\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\jlope\workspace\NLW_Auction\src\NLW_Auction.API\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\jlope\workspace\NLW_Auction\src\NLW_Auction.API\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\jlope\workspace\NLW_Auction\src\NLW_Auction.API\obj\Debug\net8.0\NLW_Auction.API.sourcelink.json
