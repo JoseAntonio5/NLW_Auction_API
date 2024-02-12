@@ -3,7 +3,7 @@ using NLW_Auction.API.Entities;
 
 namespace NLW_Auction.API.Services;
 
-public class LoggedUser
+public class LoggedUser : ILoggedUser
 {
     private readonly IHttpContextAccessor _httpContextAccessor;
     private readonly IUserRepository _repository;

@@ -13,6 +13,8 @@ C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\UseCas
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\UseCases.Test.runtimeconfig.json
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\UseCases.Test.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\UseCases.Test.pdb
+C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Bogus.dll
+C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Castle.Core.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\FluentAssertions.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Microsoft.Data.Sqlite.dll
@@ -29,6 +31,7 @@ C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Micros
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Moq.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\NuGet.Frameworks.dll
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\SQLitePCLRaw.batteries_v2.dll
@@ -143,6 +146,3 @@ C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\obj\Debug\net8.0\refint
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\obj\Debug\net8.0\UseCases.Test.pdb
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\obj\Debug\net8.0\UseCases.Test.genruntimeconfig.cache
 C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\obj\Debug\net8.0\ref\UseCases.Test.dll
-C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Castle.Core.dll
-C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Moq.dll
-C:\Users\jlope\workspace\NLW_Auction\tests\UseCases.Test\bin\Debug\net8.0\Bogus.dll
