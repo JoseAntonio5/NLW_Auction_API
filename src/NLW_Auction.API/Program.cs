@@ -7,6 +7,7 @@ using NLW_Auction.API.Repositories.DataAccess;
 using NLW_Auction.API.UseCases.Auctions.GetCurrent;
 using NLW_Auction.API.Repositories;
 using Microsoft.EntityFrameworkCore;
+using NLW_Auction.API.UseCases.Offers.GetOffer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -50,6 +51,7 @@ builder.Services.AddSwaggerGen(options =>
 builder.Services.AddScoped<AuthenticationUserAttribute>();
 builder.Services.AddScoped<ILoggedUser, LoggedUser>();
 builder.Services.AddScoped<CreateOfferUseCase>();
+builder.Services.AddScoped<GetOfferUseCase>();
 builder.Services.AddScoped<GetCurrentAuctionUseCase>();
 builder.Services.AddScoped<IAuctionRepository, AuctionRepository>();
 builder.Services.AddScoped<IOfferRepository, OfferRepository>();
@@ -57,7 +59,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddDbContext<NLW_AuctionDbContext>(options =>
 {
-    options.UseSqlite("Data Source=C:\\Users\\jlope\\workspace\\leilaoDbNLW.db");
+    options.UseSqlite("Data Source=C:\\Users\\jlope\\workspace\\NLW_Auction\\leilaoDbNLW.db");
 });
 
 builder.Services.AddHttpContextAccessor();

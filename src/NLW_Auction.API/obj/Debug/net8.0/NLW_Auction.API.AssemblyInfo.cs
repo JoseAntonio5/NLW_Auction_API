@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NLW_Auction.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f3998ce0e09d552abb8df3b8fc80604c529e9d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0c1789122bd298d438fb5e5c113cbb6c64de9df3")]
 [assembly: System.Reflection.AssemblyProductAttribute("NLW_Auction.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NLW_Auction.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

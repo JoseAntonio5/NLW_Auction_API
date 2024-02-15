@@ -14,4 +14,9 @@ public class OfferRepository : IOfferRepository
 
         _dbContext.SaveChanges();
     }
+
+    public Offer? GetOffer()
+    {
+        return _dbContext.Offers.FirstOrDefault();
+    }
 }
